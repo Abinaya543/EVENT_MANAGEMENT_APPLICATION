@@ -1,0 +1,93 @@
+.seat-selection-app {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .theatre-seat-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .seat-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .seat {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .available {
+    background-color: #bdecb6;
+  }
+  
+  .unavailable {
+    background-color: #f4b6b6;
+    cursor: not-allowed;
+  }
+  
+  .selected {
+    background-color: #8cc7dd;
+  }
+  
+  p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .srow1
+  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+  }
+  .srow2
+  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+  }
+  .srow3
+  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+  }
+  .scol1{
+    width: 30%;
+  }
+  .scol2{
+    width: 40%;
+  }
+  .scol3{
+    width: 30%;
+  }
+  .screb{
+    padding: 20px 0px 20px 0px;
+    margin: 30px 100px 0px 100px;
+    background-color: black;
+    color: white;
+    font-size: large;
+  }
+  .bookb
+  {
+    margin: 20px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+  }
